@@ -57,9 +57,7 @@ option = st.selectbox(
     ]
 )
 
-# ===============================
-# Study Plan Generator
-# ===============================
+===============================
 
 if option == "Study Plan Generator":
 
@@ -87,9 +85,7 @@ if option == "Study Plan Generator":
         st.write(result)
 
 
-# ===============================
-# Quiz Generator
-# ===============================
+===============================
 
 elif option == "Quiz Generator from Notes":
 
@@ -113,9 +109,7 @@ elif option == "Quiz Generator from Notes":
         st.write(result)
 
 
-# ===============================
-# Research Paper Explainer
-# ===============================
+===============================
 
 elif option == "Research Paper Explainer":
 
@@ -141,9 +135,7 @@ elif option == "Research Paper Explainer":
         st.subheader("Simplified Explanation")
         st.write(result)
 
-# ===============================
-# Ask Questions From PDF
-# ===============================
+==============================
 
 elif option == "Ask Questions From PDF":
 
