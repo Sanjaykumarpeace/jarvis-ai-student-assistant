@@ -78,9 +78,8 @@ if option == "Study Plan Generator":
 
         Make it structured and easy to follow.
         """
-
-    with st.spinner("JARVIS IS THINKING..."):
-        result = ask_ai(prompt)
+        with st.spinner("JARVIS IS THINKING..."):
+            result = ask_ai(prompt)
         st.subheader("Your AI Study Plan")
         st.write(result)
 
@@ -103,8 +102,8 @@ elif option == "Quiz Generator from Notes":
         Notes:
         {notes}
         """
-    with st.spinner("JARVIS IS THINKING..."):
-        result = ask_ai(prompt)
+        with st.spinner("JARVIS IS THINKING..."):
+            result = ask_ai(prompt)
         st.subheader("Generated Quiz")
         st.write(result)
 
@@ -130,8 +129,8 @@ elif option == "Research Paper Explainer":
         Paper:
         {paper}
         """
-    with st.spinner("JARVIS IS THINKING..."):
-        result = ask_ai(prompt)
+        with st.spinner("JARVIS IS THINKING..."):
+            result = ask_ai(prompt)
         st.subheader("Simplified Explanation")
         st.write(result)
 
@@ -165,7 +164,6 @@ elif option == "Ask Questions From PDF":
             Question:
             {question}
             """
-
             with st.spinner("JARVIS is analyzing the document..."):
                 result = ask_ai(prompt)
 
